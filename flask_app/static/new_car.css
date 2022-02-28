@@ -1,0 +1,36 @@
+body {
+    background-color:#ACB992;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    margin-top: 20px;
+    width: 70%
+}
+
+h1 {
+    margin-left: 220px;
+    color: #464E2E;
+}
+
+#links {
+    margin-right: 20px;
+}
+
+label {
+    color: #E9E5D6
+}
