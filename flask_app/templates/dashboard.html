@@ -38,21 +38,21 @@
                             {% endif %}
                         {% endfor %}
                         <td>
-                        {% if car.user_id == user.id %}
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item-link"><a href="/edit/{{car.id}}"> Edit </a></li>
-                            <li class="list-group-item-link"><a href="/delete/{{car.id}}"> Delete </a></li>
-                        </ul>
-                        {% else %}
+                            {% if car.user_id == user.id %}
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item-link"><a href="/edit/{{car.id}}"> Edit </a></li>
+                                    <li class="list-group-item-link"><a href="/delete/{{car.id}}"> Delete </a></li>
+                                </ul>
+                            {% else %}
                             <li class="list-group-item-link"><a href="/view/{{car.id}}">View</a></li>
-                            {% for car_purchase in purchases %}
-                                {% if car_purchase.car_id == car.id %}
-                                    <li  class="list-group-item-link"> SOLD! </li>
-                                {% else %}
-                                    <li class="list-group-item-link"><a href="/view/{{car.id}}">View</a></li>
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
+                                {% for car_purchase in purchases %}
+                                    {% if car_purchase.id == car.id %}
+                                        <li  class="list-group-item-link"> SOLD! </li>
+                                    {% else %}
+                                        <li class="list-group-item-link"><a href="/view/{{car.id}}">View</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
                         </td>
                     </tr>
                     {% endfor %}
