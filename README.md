@@ -19,15 +19,16 @@ Features present in the app:
 
 Check out the Car Dealz App here: http://18.208.109.152
 
-#About
+# About
 
 Please feel free to create a new account or use the test account and password below:
 email: test@test.com
 password: 12345678
 
-#Pictures of App:
+# Pictures of App:
 
 1.Login and Registration:
+
 ![Screen Shot 2022-05-07 at 9 19 51 PM](https://user-images.githubusercontent.com/77364785/167277813-f74db02f-6150-4256-bc3a-aa621bfc0860.png)
 
 2. Dashboard:
