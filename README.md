@@ -22,8 +22,8 @@ Check out the Car Dealz App here: http://18.208.109.152
 # About
 
 Please feel free to create a new account or use the test account and password below:
-email: test@test.com
-password: 12345678
+- email: test@test.com
+- password: 12345678
 
 # Pictures of App:
 
